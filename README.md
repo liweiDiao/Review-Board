@@ -111,6 +111,12 @@ Allow us to collect support data? [Y/n]:
   service httpd restart
   
   # 访问ip  http://21.*.*.110   可以打开Review Board      
+  
+  Username [admin]: admin    
+  Password: ** （需要记住） 
+  
+  刚才上面创建的admin可用于登录，也可以创建新用户进行登录。    
+  
   ![Image 下载文件](https://github.com/liweiDiao/Review-Board/blob/master/images/8.png) 
 
   
