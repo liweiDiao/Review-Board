@@ -118,5 +118,8 @@ Allow us to collect support data? [Y/n]:
   刚才上面创建的admin可用于登录，也可以创建新用户进行登录。    
   
   ![Image 下载文件](https://github.com/liweiDiao/Review-Board/blob/master/images/8.png) 
+  
+  添加Groups     
+  ![Image 下载文件](https://github.com/liweiDiao/Review-Board/blob/master/images/9.png) 
 
   
