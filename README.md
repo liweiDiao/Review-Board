@@ -110,7 +110,7 @@ Allow us to collect support data? [Y/n]:
   5. 重启httpd服务 
   service httpd restart
   
-  # 访问iphttp://21.*.*.110   可以打开Review Board      
+  # 访问ip  http://21.*.*.110   可以打开Review Board      
   ![Image 下载文件](https://github.com/liweiDiao/Review-Board/blob/master/images/8.png) 
 
   
