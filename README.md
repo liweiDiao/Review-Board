@@ -48,6 +48,8 @@ python – version
   mysql –u root –p
 
   (4. Show variables like‘character%’;
+  
+  ![Image 下载文件](https://github.com/liweiDiao/Review-Board/blob/master/images/5.png) 
 
  
   
