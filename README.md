@@ -99,5 +99,5 @@ python – version
 Allow us to collect support data? [Y/n]:    
  创建成功后，rb-site 工具会对数据库进行初始化，包括建表、插入初始数据，查看reviewboard数据库中多了好多表就代表成功了，如果数据库连接不上会直接报错。
 
- 
+ ![Image 下载文件](https://github.com/liweiDiao/Review-Board/blob/master/images/7.png) 
   
