@@ -66,6 +66,15 @@ python – version
   4. 启动 httpd 服务 
   service httpd start
  
+ # 4、安装 ReviewBoard
+  1. 添加EPEL安装包数据源 
+  yum install epel-release
+
+  2. 安装 memcached ，为ReviewBoard提供缓存服务 
+  yum install memcached
+
+  3. 安装 ReviewBoard 
+  yum install ReviewBoard
 
  
   
