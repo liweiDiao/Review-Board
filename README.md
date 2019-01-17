@@ -26,15 +26,28 @@ python – version
   service mysqld start    
 
 5. 初始化 MySQL
-  1. 生成临时密码 
+  (1. 生成临时密码 
   grep ‘temporary password’ /var/log/mysqld.log
   
   ![Image 下载文件](https://github.com/liweiDiao/Review-Board/blob/master/images/4.png) 
 
-  2. 使用临时密码登录MySQL 
+  (2. 使用临时密码登录MySQL 
   mysql -u root -p
 
-  3. 修改root用户的密码为“root” 
+  (3. 修改root用户的密码为“root” 
   ALTER USER ‘root’@’localhost’ IDENTIFIED BY ‘root123456’;
+  
+6. 修改 MySQL 字符集
+  (1. 修改 /etc/my.cnf文件，添加character-set-server=utf8 
+  vi /etc/my.cnf
+
+  (2. 重启mysqld服务，重新登录MySQL，验证是否生效 
+  service mysqld restart
+
+  (3. 登录MySQL 
+  mysql –u root –p
+
+  (4. Show variables like‘character%’;
+
  
   
