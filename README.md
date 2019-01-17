@@ -35,6 +35,6 @@ python – version
   mysql -u root -p
 
   3. 修改root用户的密码为“root” 
-  ALTER USER ‘root’@’localhost’ IDENTIFIED BY ‘root’;
+  ALTER USER ‘root’@’localhost’ IDENTIFIED BY ‘root123456’;
  
   
