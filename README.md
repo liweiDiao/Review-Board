@@ -83,21 +83,21 @@ python – version
   2. 使用rb-site 添加新站点 
   rb-site install /var/www/reviews
   
-  Domain Name: 192.*.*.*（本机ip作为web站点） 
- Root Path [/]: / 
- Database Type: mysql 
- Database Name [reviewboard]: reviewboard (和之前的数据库名一致) 
- Database Server [localhost]: 127.0.0.1 
- Database Username: reviewboard 
- Database Password: reviewboard 
- Cache Type: memcached 
- Memcache Server [localhost:11211]: localhost:11211 
- Username [admin]: admin 
- Password: ** （需要记住） 
- E-Mail Address: example@example.com 
- Company/Organization Name (optional): * 
-Allow us to collect support data? [Y/n]:
-
+  Domain Name: 192.*.*.*（本机ip作为web站点）     
+ Root Path [/]: /     
+ Database Type: mysql     
+ Database Name [reviewboard]: reviewboard (和之前的数据库名一致)     
+ Database Server [localhost]: 127.0.0.1     
+ Database Username: reviewboard     
+ Database Password: reviewboard     
+ Cache Type: memcached       
+ Memcache Server [localhost:11211]: localhost:11211     
+ Username [admin]: admin     
+ Password: ** （需要记住）     
+ E-Mail Address: example@example.com     
+ Company/Organization Name (optional): *     
+Allow us to collect support data? [Y/n]:    
+ 
 
  
   
