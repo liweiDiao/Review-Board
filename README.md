@@ -6,5 +6,7 @@
 
 python – version    
 
+![Image 下载文件](https://github.com/liweiDiao/Review-Board/blob/master/images/1.png)    
+
 2、
 
