@@ -24,4 +24,17 @@ python – version
   
 4. 启动MySQL服务     
   service mysqld start    
+
+5. 初始化 MySQL
+  1. 生成临时密码 
+  grep ‘temporary password’ /var/log/mysqld.log
+  
+  ![Image 下载文件](https://github.com/liweiDiao/Review-Board/blob/master/images/4.png) 
+
+  2. 使用临时密码登录MySQL 
+  mysql -u root -p
+
+  3. 修改root用户的密码为“root” 
+  ALTER USER ‘root’@’localhost’ IDENTIFIED BY ‘root’;
+ 
   
