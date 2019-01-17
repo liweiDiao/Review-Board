@@ -50,6 +50,22 @@ python – version
   (4. Show variables like‘character%’;
   
   ![Image 下载文件](https://github.com/liweiDiao/Review-Board/blob/master/images/5.png) 
+ 
+# 3、安装 Apache Web服务器
+  1. 使用yum安装httpd 
+  yum install httpd
+
+![Image 下载文件](https://github.com/liweiDiao/Review-Board/blob/master/images/6.png) 
+
+  2. 添加httpd为系统服务 
+  systemctl enable httpd.service
+
+  3. 安装 Apache HTTP服务器的mod_wsgi 拓展模块（支持使用了Python WSGI标准的Python应用） 
+  yum install mod_wsgi
+
+  4. 启动 httpd 服务 
+  service httpd start
+ 
 
  
   
