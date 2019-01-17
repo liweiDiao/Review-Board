@@ -18,3 +18,10 @@ python – version
 2. 安装RPM包     
   rpm -Uvh mysql57-community-release-el7-11.noarch.rpm    
   ![Image 下载文件](https://github.com/liweiDiao/Review-Board/blob/master/images/3.png)  
+
+3. 使用 yum 安装 mysql-community-server     
+  yum install mysql-community-server    
+  
+4. 启动MySQL服务     
+  service mysqld start    
+  
