@@ -124,3 +124,5 @@ Allow us to collect support data? [Y/n]:
   ![Image 下载文件](https://github.com/liweiDiao/Review-Board/blob/master/images/9.png) 
 
   
+  
+  未完，后续补充
