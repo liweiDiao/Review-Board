@@ -1,14 +1,14 @@
-## Review-Board  使用centos 搭建以下工具, 官网：https://www.reviewboard.org/
+## Review-Board  使用centos 搭建review工具, 官网：https://www.reviewboard.org/
 
 最近打算研究一下开源的code review 工具，然后网上查找一番，打算自己搭建一下Review Board记录一下(有参考一些教程)    
 
-### 1、好像需要python环境，Centos 系统中一些命令会依赖Python，因此系统会默认安装Python。如果为Centos 7，Python版本为 2.7.5，无需重新安装，可以通过以下命令检查。    
+#### 1、好像需要python环境，Centos 系统中一些命令会依赖Python，因此系统会默认安装Python。如果为Centos 7，Python版本为 2.7.5，无需重新安装，可以通过以下命令检查。    
 
 python – version    
 
 ![Image 下载文件](https://github.com/liweiDiao/Review-Board/blob/master/images/1.png)    
 
-### 2、安装 MySQL    
+#### 2、安装 MySQL    
 
 1. 添加MySQL Yum 仓库    
    wget https://dev.mysql.com/get/mysql57-community-release-el7-11.noarch.rpm     
@@ -51,7 +51,7 @@ python – version
   
   ![Image 下载文件](https://github.com/liweiDiao/Review-Board/blob/master/images/5.png) 
  
-# 3、安装 Apache Web服务器
+#### 3、安装 Apache Web服务器
   1. 使用yum安装httpd 
   yum install httpd
 
@@ -66,7 +66,7 @@ python – version
   4. 启动 httpd 服务 
   service httpd start
  
- # 4、安装 ReviewBoard
+ #### 4、安装 ReviewBoard
   1. 添加EPEL安装包数据源 
   yum install epel-release
 
@@ -76,7 +76,7 @@ python – version
   3. 安装 ReviewBoard 
   yum install ReviewBoard
   
- # 5、创建 ReviewBoard 站点
+ #### 5、创建 ReviewBoard 站点
   1. 登录MySQL，创建名为reviewboard的数据库 
   CREATE DATABASE reviewboard CHARACTER SET utf8;
   
@@ -110,7 +110,7 @@ Allow us to collect support data? [Y/n]:
   5. 重启httpd服务 
   service httpd restart
   
-  # 访问ip  http://21.*.*.110   可以打开Review Board      
+  #### 访问ip  http://21.*.*.110   可以打开Review Board      
   
   Username [admin]: admin    
   Password: ** （需要记住） 
@@ -125,4 +125,4 @@ Allow us to collect support data? [Y/n]:
 
   
   
-  未完，后续补充
+  #### 未完，后续补充
