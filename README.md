@@ -12,11 +12,13 @@ python – version
 
 1. 添加MySQL Yum 仓库    
    wget https://dev.mysql.com/get/mysql57-community-release-el7-11.noarch.rpm     
-   输入命令出现（wget: 未找到命令）的错误，输入：  yum -y install wget     没有错误请忽视！    
+   输入命令出现（wget: 未找到命令）的错误，输入：  yum -y install wget     没有错误请忽视！ 
+   
   ![Image 下载文件](https://github.com/liweiDiao/Review-Board/blob/master/images/2.png)    
   
 2. 安装RPM包     
   rpm -Uvh mysql57-community-release-el7-11.noarch.rpm    
+  
   ![Image 下载文件](https://github.com/liweiDiao/Review-Board/blob/master/images/3.png)  
 
 3. 使用 yum 安装 mysql-community-server     
